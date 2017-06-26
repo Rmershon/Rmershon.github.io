@@ -1,11 +1,38 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-    
-<h1>Ludum Dare</h1>
-
-<p>Click <a href="LDJam/index.html">here</a> for a play through of our game 'A Small World'</p>
-</body>
+<!doctype html>
+<html lang='en' ng-app='myApp'>
+    <head>
+        <meta charset="UFT-8">
+        <title>Reed's Website</title>
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div ng-controller="NavController">
+            <navs></navs>
+            <hr>
+            <div class='jumbotron'>
+                <h1>Welcome!</h1>
+            </div>
+            <div id='collumn'>
+                <div class='col-md-4'>
+                    <h3>col 1</h3>
+                    <p></p>
+                    <hr>
+                </div>
+                <div class='col-md-4'>
+                    <h3>col 2</h3>
+                    <p></p>
+                    <hr>
+                </div>
+                <div class='col-md-4'>
+                    <h3>col 3</h3>
+                    <p></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
