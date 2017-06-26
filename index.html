@@ -2,6 +2,7 @@
 <html lang='en' ng-app='myApp'>
     <head>
         <meta charset="UFT-8">
+        <meta name="viewport" content="width=1180">
         <title>Reed's Website</title>
         <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="main.css">
@@ -10,27 +11,29 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div ng-controller="NavController">
-            <navs></navs>
-            <hr>
-            <div class='jumbotron'>
-                <h1>Welcome!</h1>
-            </div>
-            <div id='collumn'>
-                <div class='col-md-4'>
-                    <h3>col 1</h3>
-                    <p></p>
-                    <hr>
+        <div class='fluid-container'>
+            <div ng-controller="NavController">
+                <navs></navs>
+                <hr>
+                <div class='jumbotron'>
+                    <h1>Welcome!</h1>
                 </div>
-                <div class='col-md-4'>
-                    <h3>col 2</h3>
-                    <p></p>
-                    <hr>
-                </div>
-                <div class='col-md-4'>
-                    <h3>col 3</h3>
-                    <p></p>
-                    <hr>
+                <div id='collumn'>
+                    <div class='col-md-4'>
+                        <h3>col 1</h3>
+                        <p></p>
+                        <hr>
+                    </div>
+                    <div class='col-md-4'>
+                        <h3>col 2</h3>
+                        <p></p>
+                        <hr>
+                    </div>
+                    <div class='col-md-4'>
+                        <h3>col 3</h3>
+                        <p></p>
+                        <hr>
+                    </div>
                 </div>
             </div>
         </div>
