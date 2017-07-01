@@ -5,14 +5,28 @@ height: 70px;
 overflow-y: hidden;
 }
 
+///////////////////////*
+
+        Body
+
+*//////////////////////
+
 #collumn{
     padding-right: 5%;
     padding-left: 5%;
 }
 
+///////////////////////*
+
+        Navigation
+
+*//////////////////////
+
 .navbar{
     height: 10% !important;
 }
+
+
 
 /*
 .jumbotron{
