@@ -5,31 +5,47 @@ height: 70px;
 overflow-y: hidden;
 }
 
-///////////////////////*
-
-        Body
-
-*//////////////////////
-
 #collumn{
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
 }
 
-///////////////////////*
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
 
-        Navigation
+#jumbotron-one {
+    height:90vh;
+    background-image: url("Images/horseHead.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-*//////////////////////
+#jumbotron-two {
+    height:30vh;
+    background-image: url("Images/Code.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#jumbo-text {
+    padding-left: 5%;
+    color: white;
+    font-size: 74px;
+    position: fixed;
+}
+
+.centerBlock {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
 
 .navbar{
     height: 10% !important;
+    margin-bottom: 0px;
 }
 
-
-
-/*
-.jumbotron{
-    max-width: 1000px;
-}
-*/
